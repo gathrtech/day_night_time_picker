@@ -60,9 +60,7 @@ class _DayNightTimePickerIosState extends State<DayNightTimePickerIos> {
       minMinute,
       maxMinute,
     );
-    final h = timeState!.widget.is24HrFormat
-        ? timeState!.time.hour
-        : timeState!.time.hourOfPeriod;
+    final h = timeState!.time.hour;
 
     final m = timeState!.time.minute;
 
